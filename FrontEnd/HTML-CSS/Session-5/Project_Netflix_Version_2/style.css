@@ -41,3 +41,17 @@ span{
 .input-box{
     color: white;
 }
+textarea{
+    resize: none;
+}
+#survey-form-container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+
+}
+
+#name, #age, #email, #dropdown, #feedback{
+    width: 100%;
+}
