@@ -66,5 +66,12 @@ let x= 0.121212121212121
 let y= 0.1212121212121210005
 console.log(x, y)
 console.log(+x.toFixed(2));
-*/
+
 `` /  ''  / " "  // STRİNG Models
+
+let userName = 'Silyon';
+console.log('Merhaba' , userName);
+console.log(`Merhaba ${userName}`);
+console.log(`2 + 3 = ${2 + '3'}`);
+console.log('3' - 2);
+*/
