@@ -31,12 +31,13 @@ let c = +prompt('Bir Değer Giriniz');
 console.log( typeof typeof c);
 */
 
+
 let age;
 
-console.log(age);
+console.log(age)
 
-comsole.log(myAge);
+console.log(myAge)
 
-var myAge = 40;
+let myAge = 40;
 
 console.log('Hello')
