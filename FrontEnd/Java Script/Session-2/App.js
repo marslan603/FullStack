@@ -28,9 +28,24 @@ console.log(typeof (8>7));
 
 
 let c = +prompt('Bir Değer Giriniz');
-console.log( typeof typeof c);
-*/
+console.log(c); 
 
+
+let b = 22
+let b = +prompt('Bir rakam giriniz')
+
+console.log(b, typeof b)
+
+
+var age;
+
+console.log(age)
+
+console.log(myAge)
+
+var myAge = 40;
+
+console.log('Hello') 
 
 let age;
 
@@ -41,3 +56,12 @@ console.log(myAge)
 let myAge = 40;
 
 console.log('Hello')
+
+let a = null;
+let b = undefined;
+console.log(a, typeof a);
+console.log(b, typeof b); */
+
+let x= 121212121212121
+let y= 1212121212121210005
+console.log(x, y)
