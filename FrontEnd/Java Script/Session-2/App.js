@@ -60,8 +60,11 @@ console.log('Hello')
 let a = null;
 let b = undefined;
 console.log(a, typeof a);
-console.log(b, typeof b); */
+console.log(b, typeof b); 
 
-let x= 121212121212121
-let y= 1212121212121210005
+let x= 0.121212121212121
+let y= 0.1212121212121210005
 console.log(x, y)
+console.log(+x.toFixed(2));
+*/
+`` /  ''  / " "  // STRİNG Models
