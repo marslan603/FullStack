@@ -75,3 +75,12 @@ console.log(`Merhaba ${userName}`);
 console.log(`2 + 3 = ${2 + '3'}`);
 console.log('3' - 2);
 */
+
+let x = 6 < 5;
+console.log(`x = ${x}`);
+
+let y = `11` == '11' == 11;
+
+console.log(`y = ${y}`);
+
+console.log(Boolean(x));
