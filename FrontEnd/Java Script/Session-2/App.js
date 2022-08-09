@@ -74,7 +74,7 @@ console.log('Merhaba' , userName);
 console.log(`Merhaba ${userName}`);
 console.log(`2 + 3 = ${2 + '3'}`);
 console.log('3' - 2);
-*/
+
 
 let x = 6 < 5;
 console.log(`x = ${x}`);
@@ -84,3 +84,30 @@ let y = `11` == '11' == 11;
 console.log(`y = ${y}`);
 
 console.log(Boolean(x));
+*/
+
+const myCar = {
+    make : 'ford',
+    model : 'Mustang',
+    year : 1965,
+    color : 'Black'
+  }
+  console.log(myCar);
+
+  myCar.color = 'green';
+
+  console.log(myCar);
+
+  // myCar = 'ford'
+
+  myCar.sunRoof = false;
+
+  console.log(myCar);
+
+  myCar.age = function(current){
+    console.log(current - this.year)
+  }
+
+myCar.age = 2022
+
+console.log(myCar);
