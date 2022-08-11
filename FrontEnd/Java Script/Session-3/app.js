@@ -120,3 +120,6 @@ let num2 = +prompt('Enter first number2');
 let num3 = +prompt('Enter first number3');
 let result = (num1%10) === (num2%10) || (num1%10) === (num2%10) || (num2%10) === (num3%10);
 console.log(`There are at least 2 numbers having same first digit: ${result}`);
+
+
+//LESSON DONE
