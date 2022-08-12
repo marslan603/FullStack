@@ -1,0 +1,51 @@
+ul{
+    /* padding-left: 20px; */
+    list-style-type: none;
+}
+
+.item{
+
+   /* list-style-type: georgian; */
+   /* list-style-position: outside; */
+   /* list-style-type:"\2764"; /*
+
+   /* list-style-image: url("./img/images.jpeg"); */
+}
+
+li::before{
+/*
+    content: "\2764";
+    color: red;
+    padding-right: 10px;  */
+}
+
+ol{
+    list-style-type: none;
+    margin: 5px;
+    padding: 20px;
+}
+
+ol li{
+
+    border: 1px solid   red;
+    border-radius: 25px;
+    margin: 10px;
+    padding-left: 1rem;
+    background-color: yellowgreen;
+    border-left: 7px solid gray;
+    color: red;
+    width: 15rem;
+    height: 3rem;
+
+}
+
+ol li:hover{
+    background-color: gray;
+    color: lightgreen;
+    border-left: 7px solid red;
+    cursor: pointer;
+}
+
+ol li::before{
+    content: "🍺";
+}
