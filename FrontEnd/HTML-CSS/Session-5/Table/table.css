@@ -1,0 +1,51 @@
+caption{
+    font-weight: 900;
+    border: 2px solid   black;
+    margin-bottom: 10px;
+}
+
+table, th, td{
+    border: 1px solid   black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    height: 30px;
+    vertical-align: bottom;
+    padding: 10px;
+    background-color: rgb(74, 70, 70);
+    color: orange;
+}
+
+td{
+    height: 25px;
+}
+
+td:hover{
+    background-color: magenta;
+    cursor: pointer;
+}
+
+th:hover{
+    background-color: darkcyan;
+}
+
+caption:hover{
+    background-color: red;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: darkgray;
+}
+
+tr:hover{
+    background-color: chocolate;
+}
