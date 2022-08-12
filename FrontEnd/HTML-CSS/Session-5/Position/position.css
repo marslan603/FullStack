@@ -1,0 +1,44 @@
+.main{
+    width: 100%;
+    background-color: rgb(223, 235, 116);
+    height: 1000px;
+    margin: 10px;
+    padding: 10px;
+    /*position: relative;*/
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(222, 52, 30, 0.823);
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(71, 10, 255, 0.81);
+    position: relative;
+   /* top: 30px;
+    left: 30px; */
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(239, 8, 177, 0.804);
+    /* position: absolute; */
+    top: 20px;
+    left: 80px;
+}
+
+#icerde{
+
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    font-size: .5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
