@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid   red;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(./img/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    color:red;
+    /*  opacity: 0.5; */
+}
+
+.paragraf{
+    color: rgba(255, 0, 0, .7);
+}
+
+img{
+    width: 15%;
+}
+
+.img1{
+    opacity: 1;
+    transition: all ease-in-out 400ms;
+}
+.img2{
+    opacity: 0.5;
+}
+.img3{
+    opacity: 1;
+}
+.img4{
+    opacity: 0.5;
+}
+.img5{
+    opacity: 1;
+}
