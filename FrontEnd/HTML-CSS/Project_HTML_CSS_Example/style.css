@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    min-height: 100vh;
+    background-image: url(./img/images.jpeg);
+    background-repeat: no-repeat;
+    background: silver;
+}
+
+.contanier{
+
+    width: 1080px;
+    margin: 200px auto 0 auto;
+
+}
+
+nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+       
+}
+
+nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav .sekmeler a{
+    color:whitesmoke;
+    background-color:black;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    border: goldenrod solid 5px;
+    border-right: none;
+    border-radius: 100px 0 0 100px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+nav .sekmeler a:hover{
+    background-color: darkcyan;
+    color: red;
+    cursor: pointer;
+}
+
+nav .social a{
+    color:#25373D;
+    font-size:2rem;
+    background-color: goldenrod;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding:8px;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+nav .social a:hover{
+    background-color: chocolate;
+    color: coral;
+    cursor: pointer;
+}
+
+.slayt{
+    min-height: 400px;
+    background-image: url(./img/sirt-cantasi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.menu1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    padding: 20px;
+    background-color: darkgray;
+    margin-bottom: 40px;
+}
+
+.box1{
+    
+    width: 330px;
+    height: 330px;
+    line-height: 600px; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #D33257;
+    background-image:url(./img/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#fff;
+    cursor: pointer;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.box2{
+    width: 330px;
+    height: 150px;
+    line-height: 280px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    background-image:url(./img/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
