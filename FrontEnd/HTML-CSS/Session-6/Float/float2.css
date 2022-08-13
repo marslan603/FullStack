@@ -28,6 +28,11 @@ article{
     width: 70%;
     height: 300px;
     float: left;
+    /* 
+    display: flex;
+    justify-content: center;
+    vertical-align: center ;
+    */
 }
 
 footer{
