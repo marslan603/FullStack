@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    margin-left: 10px;
+}
+
+body{
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.abs{
+    background-color: aqua;
+    width: 5cm;
+}
+
+.div2{
+    background-color: chocolate;
+    width: 50%;
+    height: 50%;
+
+}
+
+.div3{
+
+    background-color: yellow;
+    width: 50%;
+    height: 50vh;
+}
+
+.div4{
+
+    background-color:darkmagenta;
+    width: 50vw;
+}
