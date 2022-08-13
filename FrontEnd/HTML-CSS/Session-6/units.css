@@ -2,6 +2,10 @@
     margin: 0;
     margin-left: 10px;
 }
+html{
+
+        font-size: 16px; /* 1 rem is 16px mean*/
+}
 
 body{
     height: 100vh;
@@ -28,6 +32,19 @@ body{
 
 .div4{
 
-    background-color:darkmagenta;
+    background-color:rgb(250, 58, 250);
     width: 50vw;
+}
+
+.div5{
+    font-size: 1em; /* 16 px*/
+
+}
+.div6{
+    font-size: 2em; /* 32px */
+
+}
+.div7{
+    font-size: 3em; /* 96px*/
+
 }
