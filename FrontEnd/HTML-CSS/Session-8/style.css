@@ -1,5 +1,75 @@
 /************ ROTATE **************/
 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.yazi {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50vw;
+}
+.yazi1{
+    background-color: greenyellow;
+    transform: rotateX(180deg);
+}
+.yazi2{
+    background-color:tomato;
+    transform: rotateY(180deg);
+}
+.yazi3{
+    background-color: hotpink;
+    transform: rotate(-45deg);
+}
+
 /*************** SCALE ************/
 
+.yazi4{
+    background-color:indianred;
+
+}
+.yazi4:hover {
+    transform: scaleX(1.5) scaleY(2);
+}
+
+.yazi5{
+    background-color: fuchsia;
+}
+.yazi5:active{
+    background-color: fuchsia;
+    transform: scale(96%)
+}
+
+
 /*************** TRANSLATE - TRANSITION ************/
+
+
+
+.translate {
+
+    background-color: gold;
+    font-weight: 800;
+    font-size: 1.1rem;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+.x:hover{
+    transform: translateX(50px);
+}
+
+.y:active{
+    transform: translateY(50px);
+}
+
+.xy:active {
+    transform: translate(50px, 50px);
+  }
