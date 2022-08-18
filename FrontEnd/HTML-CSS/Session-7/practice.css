@@ -34,3 +34,32 @@ nav.yatay-menu ul li:hover a{
     color: white;
 }
 
+/** AÇILIR MENÜ*/
+
+nav.acilir-menu ul{
+    display: none;
+    list-style-type: none;
+}
+nav.acilir-menu ul li{
+    display: inline-block;
+    background-color: wheat;
+    padding: 1rem;
+    margin-right: 2rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 10px;
+
+}
+nav.acilir-menu:hover ul{
+    display: block;
+}
+nav.acilir-menu .fa-bars:active{
+    opacity: 0.5;
+}
+nav.acilir-menu {
+    border: 2px solid   red;
+    width: 50rem;
+    height:5rem;
+}
