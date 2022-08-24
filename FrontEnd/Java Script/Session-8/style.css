@@ -37,4 +37,5 @@ body {
   background: linear-gradient(to top left, #5e0674, #c0ceee);
   display: block;
   justify-content: center;
+  margin-top: 240px;
 }
