@@ -25,6 +25,51 @@ topla(dizi);
 //*                   FOR-IN LOOP
 //* ======================================================
 
+const adlar = ["Ahmet", "Can", "Mustafa", "Ayşe", "Elif"];
+const soyAdlar = ["Öztürk", "Yılmaz", "Arı", "Çalı", "Yazı"];
+
+let adSoyad = [];
+for (let i in adlar) {
+  adSoyad[i] = adlar[i] + " " + soyAdlar[i];
+}
+console.log(`Ad Soyad birleşimi : `, adSoyad);
+
+const birlestir = (arr1, arr2) => {
+  let adSoyad = [];
+  for (let i in arr1) {
+    adSoyad[i] = arr1[i] + arr2[i];
+  }
+  console.log(`Ad Soyad birleşim fonksiyon ile : `, adSoyad);
+};
+
+birlestir(adlar, soyAdlar);
+
+//*?-------------------------------------------------------
+//*? SORU: Ogrenciler dizisinde ogrenci isimleri saklanmaktadir.
+//*? ogrencileri aramamizi saglayacak ve aranilan ogrenciden
+//*? ne kadar sayida bulunuldugunu  ana programa döndürecek bir
+//*? fonksiyonu yaziniz. Eger aranilan isimde bir ogrenci yok ise
+//*? fonksiyon "ogrenci bulunamadi" dondurulmelidir.
+//?--------------------------------------------------------
+
+const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
+const findStudent = (arr, search) => {
+  let counter = 0;
+  for (let i in arr) {
+    if (search === arr[i]) {
+      counter++;
+    }
+  }
+  if (!counter) {
+    return `${search} can not be found`;
+  } else {
+    return `${search} found ${counter} times`;
+  }
+};
+
+const name = prompt("Please enter a name").toLocaleLowerCase();
+console.log(findStudent(students, name));
+
 //* ======================================================
 //*                   FOR-OF LOOP
 //* ======================================================
